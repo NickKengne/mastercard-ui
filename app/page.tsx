@@ -6,12 +6,12 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-center p-24">
       <div className="w-[470px] max-w-[98%] h-[280px] bg-gradient-to-t to-[#E42C66] from-[#F55B46] rounded-2xl p-8 relative overflow-hidden">
-        {/* <div className="h-[150px] w-[280px] absolute bg-black rounded-[50%] rotate-[17deg] -top-[35px] -right-[50px] opacity-10">
+        <div className="h-[150px] w-[280px] absolute bg-black rounded-[50%] rotate-[17deg] -top-[35px] -right-[50px] opacity-10">
 
         </div>
         <div className="h-[150px] w-[280px] absolute bg-black rounded-[50%] rotate-[19deg] -bottom-[35px] -left-[50px] opacity-10">
 
-        </div> */}
+        </div>
         <div className="w-[100%] relative flex justify-between">
           <div className="flex flex-col gap-1">
             <p className="text-[16px] text-white">Current Balance</p>
